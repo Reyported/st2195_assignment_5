@@ -15,7 +15,7 @@ doubles)
 3. edited the value of if arguments to reflect "2 or 5 or 7" 
  '''
 x= []
-for i in range(0,1000):
+for i in range(0,1001):
  if (is_divisible_by_k(i, 2) or is_divisible_by_k(i, 5) or is_divisible_by_k(i, 7)):
      x.append(i)
  
@@ -27,5 +27,5 @@ doubles)
 '''
 sum(x)
 
-sum(i for i in range(1000) if i % 2 == 0 or i % 5 == 0 or i % 7 == 0)
+sum(i for i in range(1001) if i % 2 == 0 or i % 5 == 0 or i % 7 == 0)
 
